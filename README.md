@@ -1,4 +1,4 @@
-### Contraband.gg
+# Contraband.gg
 ## A simple, small League of Legends data interface like op.gg: allowing users to see information about their match history, champ mastery, and their ranks.
 > Note: In no way am I trying to copy op.gg, I'm trying to merely learn how to create applications by looking to other examples for inspiration.
 ## The app is available [here](https://contrabandgg.herokuapp.com/)
