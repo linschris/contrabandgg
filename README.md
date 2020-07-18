@@ -7,3 +7,5 @@
 In order to make this application, I utilized [React](https://reactjs.org/), [Express](https://expressjs.com/), and [NodeJS](https://nodejs.org/en/) to not only make a user interface, but make serverside API calls to the Riot API. To host this website, I used [Heroku](www.heroku.com
 ) (as seen in the domain name).
 
+> Final note: If the website won't load any data, it's most likely because of an expired API Key. With using Riot Games's API, I use a development key that must be updated every 24hrs. (I'll try to apply for a better key, but no guarantees). 
+
