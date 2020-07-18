@@ -1,0 +1,100 @@
+@import url('./fonts.css');
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cardStyling {
+    width: 10em;
+    height: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    background-color: white;
+    color: black;
+    border-radius: 2%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 0 0.2em 0.2em gray;
+    margin-bottom: 0.75em;
+}
+
+#userData {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userProfile {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userProfile img {
+    width: 2em;
+    height: 2em;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-bottom: 0.25em;
+}
+
+.userProfile span {
+    font-size: 20px;
+}
+
+.userRanked {
+    position: relative;
+    height: 9.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userRanked div {
+    margin-bottom: 0.25em;
+}
+
+.userRanked span {
+    border-radius: 10%;
+    font-size: 20px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 10%;
+}
+
+#userRankedFlex {
+}
+
+.userRanked img {
+    align-self: center;
+    padding-bottom: 0.25em;
+    width: 4em;
+    height: 4em;
+}
+
+#image-container img {
+    width: 5em;
+    height: 5em;
+}
+
+#ranked-queue {
+    color: gray;
+    font-size: 15px;
+}
+.wins {
+    background-color: lightskyblue;
+}
+.losses {
+    background-color: lightcoral;
+}

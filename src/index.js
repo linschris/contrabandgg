@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+const images = {
+  ranks: {
+    iron: require('./assets/ranked-emblems/Emblem_Iron.png'),
+    bronze: require('./assets/ranked-emblems/Emblem_Bronze.png'),
+    silver: require('./assets/ranked-emblems/Emblem_Silver.png'),
+    gold: require('./assets/ranked-emblems/Emblem_Gold.png'),
+    platinum: require('./assets/ranked-emblems/Emblem_Platinum.png'),
+    diamond: require('./assets/ranked-emblems/Emblem_Diamond.png'),
+    master: require('./assets/ranked-emblems/Emblem_Master.png'), 
+    challenger: require('./assets/ranked-emblems/Emblem_Challenger.png')
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +23,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+export default images;

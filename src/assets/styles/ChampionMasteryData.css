@@ -1,0 +1,100 @@
+#champMasteries {
+    position: relative;
+}
+
+.rank-containers {
+    position: relative;
+    top: 30%;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#first-place, #second-place, #third-place {
+    border-radius: 3%;
+}
+#second-place {
+    position: relative;
+    width: 33%;
+    height: 45%;
+    top: 55%;
+    background-color: #C0C0C0;
+}
+#first-place {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 60%;
+    top: 40%;
+    background-color: #f7b935;
+}
+#first-place i {
+    position: relative;
+    margin-top: 0.1em;
+    font-size: 0.75em;
+}
+#third-place {
+    position: relative;
+    width: 33%;
+    height: 30%;
+    top: 70%;
+    background-color: #b5651d;
+}
+
+
+.champMastery {
+    position: absolute;
+    height: 4em;
+    width: 2em;
+    top: 2.5em;
+}
+.champName {
+    position: relative;
+    top: 5%;
+    width: 110%;
+    left: -2.5%;
+    font-size: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.champImg {
+    position: absolute;
+    margin-top: 0.5em;
+    top: 30%;
+    left: 10%;
+    width: 5em !important;
+    height: 5em !important;
+    font-size: 10px;
+    border-radius: 50%;
+}
+.champMasteryImg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 1em !important;
+    height: 1em !important;
+    border-radius: 50%;
+}
+.mastery-points {
+    position: absolute;
+    top: 90%;
+    width: 80%;
+    height: 1em;
+    padding: 0.5em;
+    font-size: 15px;
+
+    border-radius: 5%;
+}
+
+#champ-mastery2 {
+    left: 66%;
+    top: 35%;
+}
+
+#champ-mastery1 {
+    left: 12.5%;
+    top: 30%;
+}

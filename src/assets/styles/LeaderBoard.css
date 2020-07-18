@@ -1,0 +1,61 @@
+#leaderBoard {
+    position: relative;
+    width: 10em;
+    height: 20em;
+    left: 73vw;
+    margin-top: 1.25em;
+    border-radius: 1%;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+}
+
+#leaderBoard-header {
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+#leaderBoard-info {
+    width: 90%;
+    position: relative;
+    top: 0.5em;
+    font-size: 0.5em;
+    text-align: center;
+    left: 1em;
+}
+#leaderBoard img {
+    width: 2em;
+    height: 2em;
+    padding-top: 0.25em;
+}
+
+
+.leaderBoard-player {
+    position: relative;
+    text-align: left;
+    width: 90%;
+    height: 5%;
+    left: 10%;
+    margin-top: 1%;
+    top: 2%;
+    font-size: 20px;
+    display: flex;
+}
+.leaderBoard-player span {
+    position: absolute;
+    font-size: 0.8em;
+    left: 75%;
+    top: 10%;
+}
+
+#error-data {
+    padding-top: 1em;
+    font-size: 0.5em;
+}
+#player-name-number {
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
